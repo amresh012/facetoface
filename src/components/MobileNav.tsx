@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+
 import {
   Sheet,
   SheetClose,
@@ -34,7 +35,7 @@ const MobileNav = () => {
               src="/icons/logo.svg"
               width={32}
               height={32}
-              alt="yoom logo"
+              alt="face2face logo"
             />
             <p className="text-[26px] font-extrabold text-white">Face2Face</p>
           </Link>
