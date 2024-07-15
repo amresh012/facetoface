@@ -14,9 +14,8 @@ const Home = () => {
       <div className="h-[300px] w-full rounded-[20px] bg-hero bg-cover ">
         <div className="flex h-full flex-col justify-between max-md:px-5 max-md:py-8 lg:p-11">
           <h1 className="bg-white/20 backdrop-blur-lg p-2 rounded-lg text-center w-fit font-mono">
-            Upcoming Meeting at :{" "}
-            <span className="bg-blue-500  p-2 rounded-lg text-center ">
-              {" "}
+            Upcoming Meeting at :
+            <span className=" rounded-lg text-center bg-transparent  ">
               12:30 PM
             </span>{" "}
           </h1>
