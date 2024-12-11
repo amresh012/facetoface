@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
-import { BorderBeam } from './magicui/border-beam';
 
 const Sidebar = () => {
   const pathname= usePathname()
@@ -32,7 +31,6 @@ const Sidebar = () => {
           );
         })}
       </div>
-      <BorderBeam size={250} duration={12} delay={9} />
     </section>
   );
 }

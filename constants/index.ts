@@ -1,3 +1,4 @@
+import {FaLinkedin , FaTwitter, FaGithub} from 'react-icons/fa'
 export const sidebarlink = [
     {
         label: "Home",
@@ -33,3 +34,7 @@ export const avatarImages = [
     '/images/avatar-4.png',
     '/images/avatar-5.png',
 ];
+
+export const media = [
+    FaLinkedin,FaGithub,FaTwitter
+]
